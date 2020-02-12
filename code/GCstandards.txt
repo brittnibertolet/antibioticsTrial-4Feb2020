@@ -1,0 +1,39 @@
+gcStdID	dateCreated	dateRetired	company	CH4concentration_ppm	CO2concentration_ppm	CH4orderedConcentration_ppm	CO2orderedConcentration_ppm	comments	certificate of analysis
+standard001	9/4/09		Scott	45200	150000	45000	150000		yes
+standard002	11/30/12		Scott	45000	150000	45000	150000		yes
+standard003	3/20/13		Ideal Gases	44700	154000	45000	150000	conc from bottle	no
+standard004	4/15/13		Scott	45100	150200	45000	150000		yes
+standard005	6/10/13		"McNeill International, Inc. "	10.4	101	10	100		yes
+standard006	6/10/13		"McNeill International, Inc. "	10.4	101	10	100		yes
+standard007	6/10/13		"McNeill International, Inc. "	476	4806	500	5000		yes
+standard008	6/10/13		"McNeill International, Inc. "	476	4806	500	5000		yes
+standard009	6/10/13		"McNeill International, Inc. "	3061	30200	3000	30000		yes
+standard010	6/10/13		"McNeill International, Inc. "	3061	30200	3000	30000		yes
+standard011	6/10/13		"McNeill International, Inc. "	44700	150000	45000	150000	conc from R script	yes
+standard012	7/3/13		"McNeill International, Inc. "	43200	153000	45000	150000		yes
+standard013	7/31/13		"McNeill International, Inc. "	484	5112	500	5000		yes
+standard014	10/1/13		"McNeill International, Inc. "	45600	149500	45000	150000		yes
+standard015	4/30/14		"McNeill International, Inc. "	5.34	294	5	300		yes
+standard016	4/30/14		"McNeill International, Inc. "	9.83	1014	10	1000	next to galvin gc 	yes
+standard017	4/30/14		"McNeill International, Inc. "	494	5113	500	5000	next to galvin gc 	yes
+standard018	4/30/14		"McNeill International, Inc. "	3080	8007	3000	8000	next to galvin gc 	yes
+standard019	4/30/14		"McNeill International, Inc. "	45490	151100	45000	150000	next to galvin gc 	yes
+standard020	1/15/15		"McNeill International, Inc. "	5.3	315	5	300		yes
+standard021	1/15/15		"McNeill International, Inc. "	9.92	98	10	100		yes
+standard022	1/15/15		"McNeill International, Inc. "	482	5032	500	5000		yes
+standard023	1/15/15		"McNeill International, Inc. "	3060	30400	3000	30000		yes
+standard024	1/15/15		"McNeill International, Inc. "	44200	153000	45000	150000		yes
+standard025	NA		Scott	0	1000	NA	NA	used at beginning of 2016 summer because we did not have our standards ordered yet; cascade CO2 standard 	NA
+standard026	NA		Scott	1050	0	NA	NA	used at beginning of 2016 summer because we did not have our standards ordered yet; cascade CH4 standard 	NA
+standard027	NA		NA	1.8	0		0	"conc from R script; Trout Lake standard, also possibly run at UNDERC for checks "	no
+standard028	8/1/16		Airgas	5.3	315	5	300	ND-hcv	yes
+standard029	8/1/16		Airgas	9.99	1014	10	1000	ND-hcv	yes
+standard030	8/1/16		Airgas	503	8247	500	8000	ND-hcv	yes
+standard031	8/1/16		Airgas	2025	19000	3000	"20,000"	ND-hcv	yes
+standard032	8/1/16		Airgas	9570	48400	10000	"50,000"	ND-hcv	yes
+standard033	8/1/16		Airgas	46800	144000	45000	"150,000"	ND-hcv	yes
+standard034	5/15/19		"McNeill International, Inc. "	5	306	5	300		yes
+standard035	5/15/19		"McNeill International, Inc. "	11	1050	10	"1,000"		yes
+standard036	5/15/19		"McNeill International, Inc. "	510	5040	500	"5,000"		yes
+standard037	5/15/19		"McNeill International, Inc. "	3050	8100	3000	"8,000"		yes
+standard038	5/15/19		"McNeill International, Inc. "	45500	15400	45000	15000		yes
