@@ -2,7 +2,7 @@
 rm(list=ls())
 
 # Change the working directory to the current folder to process
-setwd("~/OneDrive - nd.edu/projects/dissertation/antibioticsExperiment/rawData/processing200113/")
+setwd("~/Desktop/AntibioticExp/antibioticsTrial-4Feb2020/rawData/processing-20200217/")
 
 # Read in functions and libraries
 source("../../code/southBendGC_raw2summaries_19-11-04.R")
@@ -63,6 +63,9 @@ for(i in 1:length(runs)){
   stds=tempSum[grep("standard", tempSum$subsampleClass),]
   stds$CH4ppm=standardsFile$CH4concentration_ppm[match(stds$subsampleClass, standardsFile$gcStdID)]
   stds$CO2ppm=standardsFile$CO2concentration_ppm[match(stds$subsampleClass, standardsFile$gcStdID)]
+  
+  #get rid of standards with no peaks
+  stds=stds[stds$CO2area!=0,]
   
   #create the standard curve plots 
   pdf(paste0("../../standardCurves/", runs[i], ".pdf"))
@@ -190,5 +193,5 @@ for(i in 1:length(runs)){
 }
 
 # concat all summary files into one database file
-source("~/OneDrive - nd.edu/jonesLab-data/underc-field-2019/gc2019underc/code/concatSummariesIntoDatabase.R")
+source("../../code/concatSummariesIntoDatabase.R")
 concatSummaries(summaryDir = "../../summaries/", databaseOutput = "../../antibioticsDBoutput.csv")
