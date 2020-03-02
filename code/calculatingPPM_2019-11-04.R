@@ -2,7 +2,7 @@
 rm(list=ls())
 
 # Change the working directory to the current folder to process
-setwd("~/Desktop/AntibioticExp/antibioticsTrial-4Feb2020/rawData/processing-20200217/")
+setwd("/Users/solokas/Desktop/AntibioticExp/antibioticsTrial-4Feb2020/rawData/processing-20200227/")
 
 # Read in functions and libraries
 source("../../code/southBendGC_raw2summaries_19-11-04.R")
@@ -30,7 +30,7 @@ for(i in 1:length(runs)){
   temp$area=as.numeric(levels(temp$area)[as.integer(temp$area)])
   temp$height=as.numeric(levels(temp$height)[as.integer(temp$height)])
   
-  temp=temp[(temp$sig==2 & temp$RT>5.0 & temp$RT<5.2) | (temp$sig==1 & temp$RT<3.5), ]
+  temp=temp[(temp$sig==2 & temp$RT>4.9 & temp$RT<5.2) | (temp$sig==1 & temp$RT<3.5), ]
   
   # clean up zeros in sample name
   temp$sample[1]="1"
